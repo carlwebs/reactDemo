@@ -1,0 +1,18 @@
+React杂项API
+1.isValidElement()  
+React.isValidElement(object)
+验证对象是否为 React 元素，返回值为 true 或 false。
+
+2.render() 方法是 class 组件中唯一必须实现的方法。
+
+3.构造函数主要做的事情：
+(1).设置state的初始状态。
+(2).方法绑定。
+
+4.componentDidUpdate() 会在更新后会被立即调用。首次渲染不会执行此方法。
+
+5.componentWillUnmount() 会在组件卸载及销毁之前直接调用。在此方法中执行必
+要的清理操作，例如，清除 timer，取消网络请求或清除在 componentDidMount() 中
+创建的订阅等。
+
+6.首次渲染不会调用shouldComponentUpdate()

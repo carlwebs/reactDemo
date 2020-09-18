@@ -1,0 +1,4 @@
+1.
+
+2.// 最后一个参数要判断是否是shadom，true不会引用外部得样式，false可以引用。
+ReactWebComponent.create(<JsxDemo />, 'my-component', false);

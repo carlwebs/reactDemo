@@ -1,0 +1,7 @@
+1.要在js中使用html语法就要使用jsx，jsx最终会被编译为js。
+形式为React.createElement();
+通过创建元素的形式。
+
+2.angular中html与js相关联是通过@component装饰器，react中html与js相关联
+是通过jsx语法与js关系，jsx语法最终会转化成js创建dom元素的形式。
+
